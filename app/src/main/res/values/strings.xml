@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">PlanAndGo</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_create_plan">Buat Rencana</string>
+    <string name="title_my_plan">Rencanaku</string>
+    <string name="title_profile">Profile</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_create_plan_fragment">Create Plan Fragment</string>
+    <string name="hello_my_plan_fragment">My Plan Fragment</string>
+    <string name="hello_profile_fragment">Profile</string>
+    <string name="create_your_plan">Buat Rencana Liburanmu!</string>
+    <string name="based_city">Asal Kotal</string>
+    <string name="city_destination">Kota Tujuan</string>
+    <string name="image_asset_create_plan">Image Asset</string>
+    <string name="total_budget">Total Dana (IDR/Rupiah)</string>
+    <string name="departure_time">Waktu Keberangkatan</string>
+    <string name="return_time">Waktu Kembali</string>
+    <string name="destination_theme">Tema Wisata</string>
+    <string name="start_create_plan">Mulai</string>
+    <string name="empty_input">Inputan tidak boleh kosong</string>
+
+    <string-array name="indonesia_cities">
+        <item>Jakarta</item>
+        <item>Surabaya</item>
+        <item>Bandung</item>
+        <item>Medan</item>
+        <item>Semarang</item>
+        <item>Makassar</item>
+        <item>Yogyakarta</item>
+        <item>Malang</item>
+        <item>Depok</item>
+        <item>Bekasi</item>
+        <item>Tangerang</item>
+        <item>Bogor</item>
+        <item>Palembang</item>
+        <item>Padang</item>
+        <item>Denpasar</item>
+        <item>Bandar Lampung</item>
+        <item>Pekanbaru</item>
+        <item>Batam</item>
+        <item>Samarinda</item>
+        <item>Banjarmasin</item>
+        <item>Manado</item>
+        <item>Balikpapan</item>
+        <item>Mataram</item>
+        <item>Pontianak</item>
+        <item>Palu</item>
+        <item>Cirebon</item>
+        <item>Kupang</item>
+        <item>Jambi</item>
+        <item>Serang</item>
+        <item>Ambon</item>
+        <item>Tasikmalaya</item>
+        <item>Bengkulu</item>
+        <item>Purwokerto</item>
+    </string-array>
+
+    <!-- Types of Holiday Destinations -->
+    <string-array name="holiday_destination_types">
+        <item>Beach Resorts</item>
+        <item>City Getaways</item>
+        <item>Adventure Holidays</item>
+        <item>Cultural Tours</item>
+        <item>Family-Friendly Packages</item>
+        <item>Wellness Retreats</item>
+        <item>Romantic Getaways</item>
+        <item>Luxury Travel</item>
+        <item>Theme Park Holidays</item>
+        <item>Nature Retreats</item>
+        <!-- Add more destination types as needed -->
+    </string-array>
+
+</resources>
