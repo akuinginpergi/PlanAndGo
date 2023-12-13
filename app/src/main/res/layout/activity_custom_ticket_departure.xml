@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.customplan.customtour.CustomTourActivity">
+    tools:context=".ui.customplan.customtransportation.customticketdeparture.CustomTicketDepartureActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fbCustomTour"
+        android:id="@+id/fbCustomDepartureTicket"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/yellow"
@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvCustomTour"
+        android:id="@+id/rvCustomDepartureTicket"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

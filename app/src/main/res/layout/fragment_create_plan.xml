@@ -39,7 +39,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/layout_dropdown_based_city"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -53,13 +53,13 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:hint="@string/based_city"
-                android:inputType="textAutoComplete" />
+                android:inputType="none"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/layout_dropdown_destination_city"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:hint="@string/city_destination"
-                android:inputType="textAutoComplete" />
+                android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -90,7 +90,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/layout_dropdown_based_city">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <AutoCompleteTextView
                 android:id="@+id/total_budget_user"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -112,12 +112,12 @@
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
             app:startIconDrawable="@drawable/baseline_calendar_month_24">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <AutoCompleteTextView
                 android:id="@+id/departure_time"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/departure_time"
-                android:inputType="date" />
+                android:inputType="none"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -135,12 +135,12 @@
             app:layout_constraintTop_toBottomOf="@+id/textInputLayoutDepartureTime"
             app:startIconDrawable="@drawable/baseline_calendar_month_24">
 
-            <com.google.android.material.textfield.TextInputEditText
+            <AutoCompleteTextView
                 android:id="@+id/return_time"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/return_time"
-                android:inputType="date" />
+                android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
