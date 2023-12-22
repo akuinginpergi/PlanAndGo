@@ -15,6 +15,7 @@ class MyDetailPlanActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMyDetailPlanBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportActionBar?.hide()
     }
 
     override fun onBackPressed() {

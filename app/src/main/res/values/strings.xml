@@ -25,7 +25,7 @@
     <string name="empty_input">Inputan tidak boleh kosong</string>
 
     <string-array name="indonesia_cities">
-        <item>Jakarta</item>
+        <item>DKI Jakarta</item>
         <item>Surabaya</item>
         <item>Bandung</item>
         <item>Medan</item>

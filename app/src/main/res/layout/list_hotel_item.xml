@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    style="@style/Widget.Material3.CardView.Elevated"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
@@ -14,7 +13,8 @@
         android:layout_height="wrap_content">
         <ImageView
             android:id="@+id/imageViewHotel"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
+            android:scaleType="centerCrop"
             android:layout_height="200dp"
             android:src="@drawable/regantaris"
             app:layout_constraintTop_toTopOf="parent"/>
